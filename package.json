@@ -1,0 +1,25 @@
+{
+  "name": "ESLint-example",
+  "version": "0.0.2",
+  "description": "A example of ESLint usage.",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "author": "shengjie.yuysj <shengjie.yuysj@alibaba-inc.com>",
+  "license": "MIT",
+  "pre-commit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-config-airbnb-base": "^2.0.0",
+    "eslint-plugin-html": "^1.4.0",
+    "eslint-plugin-import": "^1.6.1",
+    "eslint-plugin-jsx-a11y": "^1.0.4",
+    "eslint-plugin-react": "^5.0.1",
+    "pre-commit": "^1.1.2",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
